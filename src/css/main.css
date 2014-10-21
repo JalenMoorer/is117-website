@@ -277,9 +277,16 @@ textarea {
   display: inline;
 
 }
+
+.logo{
+  width:86px;
+  height:86px;
+}
+
 #primary_links ul {
   margin: 0px;
 }
+
 #content {
   background-color: blue;
   width: 593px;
