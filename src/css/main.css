@@ -271,6 +271,7 @@ textarea {
    border: 1px solid;
 }
 #primary_links {
+   height: 53px;
 }
 #primary_links li {
 
