@@ -312,7 +312,12 @@ h6 {
 #primary_links .mid {
  margin-left: 25px;
  margin-right: 35px;
-
+}
+#primary_links a {
+ text-decoration: none;
+}
+#primary_links a:hover{
+ text-decoration: underline;
 }
 
 #content {
