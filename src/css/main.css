@@ -265,11 +265,30 @@ textarea {
         page-break-after: avoid;
     }
 }
+
 #wrapper {
    width: 960px;
    margin-left: auto;
    margin-right: auto;
    border: 1px solid;
+}
+h1{
+ font-size: 220%;
+}
+h2 {
+ font-size: 200;
+}
+h3 {
+ font-size: 180%;
+}
+h4 {
+ font-size: 160%;
+}
+h5{
+ font-size: 140%;
+}
+h6 {
+ font-size: 120%;
 }
 #primary_links {
    height: 53px;
@@ -288,6 +307,12 @@ textarea {
 
 #primary_links ul {
   margin: 0px;
+}
+
+#primary_links .mid {
+ margin-left: 25px;
+ margin-right: 35px;
+
 }
 
 #content {
