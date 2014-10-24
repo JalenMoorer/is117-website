@@ -290,19 +290,32 @@ h5{
 h6 {
  font-size: 120%;
 }
+#header{
+height: 86px;
+border-bottom: 1px solid #bbbab6;
+}
+#title{
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-size: 32px;
+float:left;
+line-height: 86px;
+margin-left: 20px;
+}
+#title a{
+  text-decoration: none;
+  color:#000;
+}
 #primary_links {
-   height: 53px;
-   line-height: 53px;
+height: 53px;
+line-height: 86px;
+float: right;
+margin-right: 25px;
+margin-top: 10px;
 }
 #primary_links li {
 
   display: inline;
-
-}
-
-.logo{
-  width:86px;
-  height:86px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 #primary_links ul {
@@ -315,6 +328,7 @@ h6 {
 }
 #primary_links a {
  text-decoration: none;
+ color: #837D7D;
 }
 #primary_links a:hover{
  text-decoration: underline;
