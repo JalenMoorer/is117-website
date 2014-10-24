@@ -266,7 +266,11 @@ textarea {
     }
 }
 
+body{
+background-color: #E2DFDF;
+}
 #wrapper {
+   background-color: #F5F5F5;
    width: 960px;
    margin-left: auto;
    margin-right: auto;
@@ -291,14 +295,14 @@ h6 {
  font-size: 120%;
 }
 #header{
-height: 86px;
+height: 139px;
 border-bottom: 1px solid #bbbab6;
 }
 #title{
 font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 font-size: 32px;
 float:left;
-line-height: 86px;
+line-height: 139px;
 margin-left: 20px;
 }
 #title a{
@@ -307,7 +311,7 @@ margin-left: 20px;
 }
 #primary_links {
 height: 53px;
-line-height: 86px;
+line-height: 139px;
 float: right;
 margin-right: 25px;
 margin-top: 10px;
@@ -344,14 +348,21 @@ margin-top: 10px;
 #article_title{
   height: 87px;
   line-height:87px;
-
-
 }
 
 #sidebar {
-  background-color: red;
+  //background-color: red;
   width: 367px;
+  height:366px;
   float:left;
+}
+
+#sidebar img{
+  width: 329px;
+  height:226px;
+  margin-left:19px;
+  margin-right:19px;
+  margin-top: 140px;
 }
 #footer {
   clear: both;
